@@ -703,13 +703,9 @@ print('estoy funcionando 06')
 
 # llamar las funciones
 
-from misCodigos import jaw_utils
-reload (jaw_utils)
-jaw_utils.build()
-jaw_utils.createJawPin()
+build()
+createJawPin()
 
-
------------------------------
-jaw_utils.createGuides()
-jaw_utils.lip_guides()
-jaw_utils.jaw_guides()
+createGuides()
+lip_guides()
+jaw_guides()
